@@ -1,0 +1,9 @@
+version: '3'
+services:
+  sml:
+    image: ynishi/docker-sml
+    volumes:
+      - .:/app
+    environment:
+      - RLWRAP_HOME=/app/rlwrap
+    working_dir: /app
