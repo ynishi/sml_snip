@@ -8,3 +8,7 @@ sudo chown root rlwrap/*
 ```
 docker-compose run sml
 ```
+### clean
+```
+docker-compose rm sml
+```

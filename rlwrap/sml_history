@@ -1,12 +1,4 @@
 val a = 1;
-exit
-;
-:q
-;
-;;
-use "PFDS/list.sig";
-exit
 use "PFDS/STACK.sig";
 use "PFDS/List.sml";
 use "PFDS/CustomList.sml";
-:q
