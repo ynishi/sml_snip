@@ -6,4 +6,5 @@ services:
       - .:/app
     environment:
       - RLWRAP_HOME=/app/rlwrap
+      - RLWRAP_OPTS=--histsize=100000
     working_dir: /app
